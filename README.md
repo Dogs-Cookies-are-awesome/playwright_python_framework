@@ -25,6 +25,10 @@ A modular, pytest-based **Playwright (Python)** framework for web UI testing.
    ```bash
    python scripts/bootstrap_signup.py --name "Jane Doe" --email "jane@example.com" --password "StrongPass123" --storage "auth/storage_state.json"
    ```
+   or try this
+   ```bash
+   python -m scripts.bootstrap_signup --name "Jane Doe" --email "test@example.com" --password "StrongPass123" --storage "auth/storage_state.json"
+
 
 4. **Verify session works (smoke test)**
    ```bash
